@@ -66,15 +66,4 @@ VALUES (1, 'HW', 'Learn C Sharp Without Loosing Your Mind', '09/15/2018', '09/20
 (2, 'Exam', 'Prepare Paprikash Soup', '09/20/2018', '09/22/2018', '09/22/2018', 100, 100),
 (3, 'Quiz', 'Quiz on basic concepts', '09/27/2018', '09/27/2018', '09/27/2018', 90, 100);
 
---select * from dbo.Students
---select * from dbo.Classes
---select * from dbo.Scores
-
---drop table College.dbo.Scores
---drop table College.dbo.Classes
---drop table College.dbo.Students
-
---use AdventureWorks2017
---Go
---drop database College
  
