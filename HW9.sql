@@ -13,7 +13,7 @@ CREATE TABLE Students
  City varchar(100),
  State varchar(100),
  Zip int,
- Phone# bigint
+ Phone# varchar(25)
 );  
 
 use College;
@@ -46,9 +46,9 @@ use College;
 Go
 
 insert into dbo.Students 
-VALUES('Justin', 'Holubek', 123456789, '123 Any Street', 'Any City', 'Any State', 44444, 4442222222),
-('Zachary', 'Holubek', 234567891, '123 Any Street', 'Any City', 'Any State', 44444, 4442222223),
-('Sammy', 'Holubek', 345678912, '123 Any Street', 'Any City', 'Any State', 44444, 4442222224);
+VALUES('Justin', 'Holubek', 123456789, '123 Any Street', 'Any City', 'Any State', 44444, '444-222-2222'),
+('Zachary', 'Holubek', 234567891, '123 Any Street', 'Any City', 'Any State', 44444, '444-222-2223'),
+('Sammy', 'Holubek', 345678912, '123 Any Street', 'Any City', 'Any State', 44444, '444-222-2224');
 
 use College;
 Go
